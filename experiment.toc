@@ -8,3 +8,6 @@
 \contentsline {subsection}{\numberline {1.5}Observations}{5}
 \contentsline {subsection}{\numberline {1.6}Result}{5}
 \contentsline {subsection}{\numberline {1.7}Precautions}{5}
+\contentsline {chapter}{\numberline {3}Conclusion}{6}
+\contentsline {chapter}{\numberline {4}Acknowledgements}{7}
+\contentsline {chapter}{\numberline {5}Bibliography}{8}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.13)  21 APR 2017 11:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.13)  21 APR 2017 20:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -407,14 +407,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5] (./experiment.aux)
+[5]
+Chapter 3.
+(./chapters/Introduction.tex) [6
+
+]
+Chapter 4.
+(./chapters/Introduction.tex) [7
+
+]
+Chapter 5.
+(./chapters/Introduction.tex) [8
+
+] (./experiment.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5057 strings out of 494953
- 74273 string characters out of 6180977
+ 5063 strings out of 494953
+ 74429 string characters out of 6180977
  146689 words of memory out of 5000000
  8245 multiletter control sequences out of 15000+600000
  16330 words of font info for 59 fonts, out of 8000000 for 9000
@@ -430,10 +442,10 @@ s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/symbols/msam10.pfb>
-Output written on experiment.pdf (6 pages, 138455 bytes).
+Output written on experiment.pdf (9 pages, 143559 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 77 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
