@@ -1,0 +1,78 @@
+\documentclass[12pt]{report}
+\usepackage[a4paper,width=160mm,top=25mm,bottom=25mm]{geometry}
+\usepackage{graphicx}
+\usepackage{caption}
+
+\usepackage{subcaption}
+\usepackage{titlesec}
+\usepackage{bm}
+\usepackage{fancyhdr}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{enumerate}
+
+\renewcommand*\contentsname{Index}
+\renewcommand*\thesection{\arabic{section}}
+
+\numberwithin{equation}{section}
+\newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
+
+\newcommand{\dd}[1]{\mathrm{d}#1}
+
+\titleformat{\chapter}[block]{\normalfont\bfseries\Large}{}{0pt}{
+    \rule{\textwidth}{1pt}
+    \vspace{1ex}
+    \ifnum\value{chapter}>0\relax\thechapter.~~\fi
+    \centering
+}
+[
+\vspace{-0.5ex}%
+\rule{\textwidth}{0.3pt}
+]
+
+\titleformat{\section}[display]
+{\large\bfseries}
+{\normalfont\normalsize{Exp. \thesection}}{0.5em}{}
+
+\graphicspath{ {images/} }
+\pagestyle{fancy}
+
+\fancyhead{}
+\fancyhead[LO,LE]{Exp.\rightmark}
+
+\begin{document}
+
+\begin{titlepage}
+  
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+
+\center
+\vspace*{3cm} 
+
+\textsc{\LARGE Physics Experiment Project}\\[1.5cm]
+\textsc{\Large Class XII A}\\[0.5cm]
+\textsc{\large 2017-18}\\[0.5cm]
+
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Simple Harmonic Motion}\\[0.4cm]
+\HRule \\[1.5cm]
+ 
+
+\Large \emph{Conducted by:}\\
+\large Rishit \textsc{Bansal 34}\\
+\large Apurva \textsc{Kulkarni 5}\\[2cm]
+
+\includegraphics[width=9cm]{title2}
+\vfill
+
+\end{titlepage}
+
+\tableofcontents
+\chapter{Introduction}
+\input{chapters/Introduction}
+
+\chapter{Experiments}
+\section{Error in Small Angle Approximation of a Pendulum}
+\input{chapters/Experiment1}
+\end{document}
