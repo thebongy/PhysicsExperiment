@@ -1,7 +1,7 @@
 \subsection{Aim}
 \begin{enumerate}[(a)]
 \item To predict the angle of release of pendulum projectile by measuring range of the projectile.
-\item To use the results of (a) to compare the predictions of SAA with a more accurate analysis from energy conservation in the system. 
+\item To use the results of (a) to compare the predictions of SAA with a more accurate analysis considering the exact forces of the system. 
 \end{enumerate}
 \subsection{Materials Required}
 Metallic bob, Thread, Iron Stand, Protractor, Metre Scale, Scissors
@@ -18,21 +18,32 @@ A pendulum is a weight suspended from a frictionless pivot so that it can swing 
 \]
 It is clearly seen that the restoring torque is not directly proportional to the angular displacement, which means that the pendulum is not an SHM oscillator. But for small values of $\theta$, $\sin\theta$ is approximately equal to $\theta$, and thus for this case alone does the pendulum act as an SHM. The displacement of the weight for small angles can thus be given by:
 \[
-  \theta=\phi\cos\omega t
+  \theta=\phi\sin\omega t \numberthis \label{eqn}
 \]
-where $\phi$ is the amplitude (in this case, the initial \emph{angle of release} of the pendulum),$\omega$ is the angular frequency, and $t$ is a time instant.
-
+where $\phi$ is the amplitude (in this case, the initial \emph{angle of release} of the pendulum), $\omega$ is the angular frequency, and $t$ is a time instant.
+\\ \\
 Differentiating with respect to time, we obtain:
 \[
   \frac{\dd{\theta}}{\dd{t}}=\vec{\omega}=\phi\omega\cos\omega t
 \]
 and since the tangential velocity $v=r\omega$, in this case,
 \[
-  \boxed{v=l\phi\omega\cos\omega t} \numberthis \label{eqn}
+  v=l\phi\omega\cos\omega t
 \]
 where $l$ is the length of the pendulum.
+\\
+Further,
+\begin{align*}
+  v&=l\phi\omega\sqrt{1 - \sin^2\omega t}\\
+   &=l\omega\sqrt{\phi^2(1 - \sin^2\omega t)}\\
+   &=l\omega\sqrt{\phi^2 - \phi^2\sin^2\omega t}\\
+   &=l.\sqrt{\frac{g}{l}}\left(\sqrt{\phi^2 - \theta^2}\right) &&\text{($\because \omega=\sqrt{\frac{g}{l}}$ and 1.1)} \\
+ \implies \Aboxed{v&=\sqrt{ g(\phi^2 - \theta^2) }} \numberthis \label{eqn} 
+\end{align*}
 
-We can avoid the above approximations, by considering the $\sin\theta$ term and adopting another approach through calculus to find $v$. From \emph{fig.1}, the tangential acceleration of the weight is given by:
+We can avoid the above approximations, by considering the $\sin\theta$ term and adopting another approach through calculus to find $v$.
+\\ \\ \\
+From \emph{fig.1}, the tangential acceleration of the weight is given by:
   \[a_t=-g\sin\theta\]
 We know that $a_t=\frac{\dd{v}}{\dd{t}}$, thus,
   \[\frac{\dd{v}}{\dd{s}}\frac{\dd{s}}{\dd{t}}=-g\sin\theta\]
@@ -41,18 +52,35 @@ Furthermore, $\frac{\dd{s}}{\dd{t}}=v$,from which we obtain
 Integrating on both sides,
   \begin{align*}
     &\int_0^v v\dd{v} = -\int_\phi^\theta gl\sin\theta\dd{\theta} &&\text{($\because\dd{s}=l\dd{\theta}$)}\\
-   \implies &\frac{v^2}{2} = gl[ \cos\theta ]^\theta_\phi = gl[\cos\theta - \cos\phi]\\
-   \implies &\boxed{v=\sqrt{2gl[ \cos\theta - \cos\phi ]}} \numberthis \label{eqn} 
+   \implies &\frac{v^2}{2} = gl[ \cos\theta ]^\theta_\phi = gl(\cos\theta - \cos\phi)\\
+   \implies &\boxed{v=\sqrt{2gl( \cos\theta - \cos\phi )}} \numberthis \label{eqn} 
   \end{align*}
-Which is the general expression for the velocity of the weight in a pendulum as a function of $\theta$ without any \emph{small angle approximations}.
-
-[\emph{To be continued..}]
+  (1.3) is the general expression for the velocity of the weight in a pendulum as a function of $\theta$ without any \emph{small angle approximations}.
+\\ \\ \\
+  Now, lets assume the string of the pendulum is cut. The velocity of the bob $v$ at the instant the string is cut is given by \emph{(1.2)} and \emph{(1.3)}. From \emph{fig.2} and projectile equations the time taken for the bob to reach max height is given by:
+  \[t_1=\frac{v\sin\theta}{g}\]
+  At the time instant $t_1$, the bob is at the max height in its parabolic trajectory. Thus, its total height at this moment is given by:
+  \[d=\frac{v^2\sin^2\theta}{2g}+l(1-\cos\theta)+h\]
+We know that an object at height $d$ will fall to the ground in time:
+\[t_2=\sqrt{\frac{2d}{g}}\]
+Thus the total time taken for the bob to reach the ground after the string is cut is:
+\begin{align*}
+  t&=\text{(Time taken to reach max height) + (Time taken to fall to ground from max height)}\\
+     &=t_1+t_2
+\end{align*}
+Thus the range $R$ of the projectile (bob) is given by:
+\begin{align*}
+  &R=( v\cos\theta ) t\\
+  \implies &\boxed{R=v\cos\theta\left(\frac{v\sin\theta}{g}+\sqrt{\frac{2(\frac{v^2\sin^2\theta}{2g}+l(1-\cos\theta)+h)}{g}}\:\right)} \numberthis \label{eqn}
+\end{align*}
+\\ \\
+The first aim of this experiment is to observe readings of R, and predict the values of $\theta$ by looking at the graph of $R$ vs $\theta$ for measured values of $l$, $h$ and $\phi$. The second aim is to compare and analyse the graphs of $R$ vs $\theta$ for the two expressions for $v$ obtained above (1.2 and 1.3). 
 \subsection{Procedure}
 \begin{enumerate}
 \item Create a pendulum by tying a cork to one end of a string, and a bob to the other end, and then attaching the cork to an iron stand.
 \item Measure the \emph{length of the pendulum} (length from the point of suspension to the centre of the bob) and the length from the centre of the bob to the ground (when bob is at equllibrium), and note them down.
   \item Put a metre scale on the ground, aligning its zero with the bob's equillibrium position when seen from above the bob. Ensure the metre scale is parallel to the pendulum motion of the bob.
-\item Hold the bob away from its equillibrium position, and meausure the angle of release $\phi$ as shown in \emph{fig.2}.
+\item Hold the bob away from its equillibrium position, and meausure the angle of release $\phi$ as shown in \emph{fig.3}.
 \item Release the bob and cut the string with a pair of scissors at any arbitrary time in the pendulum's motion.
 \item Note the range $R$ where the bob falls on the metre scale.
 \item Repeat steps 4-6 for 4 more different values of the initial angle $\phi$.
@@ -68,7 +96,6 @@ Which is the general expression for the velocity of the weight in a pendulum as 
 \item Ensure that string is cut carefully, without disturbing the oscillations in the cutting process.
 \item Avoid any parallax while measuring angles/lengths.
 \end{enumerate}
-
 
 
 

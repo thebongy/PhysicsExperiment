@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.13)  21 APR 2017 20:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.13)  24 APR 2017 12:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -251,6 +251,12 @@ less on input line 41.
 
 LaTeX Warning: Label `eqn' multiply defined.
 
+
+LaTeX Warning: Label `eqn' multiply defined.
+
+
+LaTeX Warning: Label `eqn' multiply defined.
+
 )
 \openout1 = `experiment.aux'.
 
@@ -391,33 +397,73 @@ Chapter 1.
 
 ]
 Chapter 2.
-(./chapters/Experiment1.tex [3
+(./chapters/Experiment1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 22--26
+
+ []
+
+[3
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--61
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4])
+[4]
+Overfull \hbox (1.83447pt too wide) in paragraph at lines 70--70
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--78
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5]
+[5])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6]
 Chapter 3.
-(./chapters/Introduction.tex) [6
-
-]
-Chapter 4.
 (./chapters/Introduction.tex) [7
 
 ]
-Chapter 5.
+Chapter 4.
 (./chapters/Introduction.tex) [8
+
+]
+Chapter 5.
+(./chapters/Introduction.tex) [9
 
 ] (./experiment.aux)
 
@@ -427,25 +473,26 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  5063 strings out of 494953
  74429 string characters out of 6180977
- 146689 words of memory out of 5000000
+ 148689 words of memory out of 5000000
  8245 multiletter control sequences out of 15000+600000
  16330 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,13n,43p,848b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,14n,43p,848b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/symbols/msam10.pfb>
-Output written on experiment.pdf (9 pages, 143559 bytes).
+s/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symb
+ols/msam10.pfb>
+Output written on experiment.pdf (10 pages, 156813 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
+ 84 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
