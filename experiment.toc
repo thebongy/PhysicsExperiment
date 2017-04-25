@@ -4,10 +4,11 @@
 \contentsline {subsection}{\numberline {1.1}Aim}{3}
 \contentsline {subsection}{\numberline {1.2}Materials Required}{3}
 \contentsline {subsection}{\numberline {1.3}Theory}{3}
-\contentsline {subsection}{\numberline {1.4}Procedure}{5}
+\contentsline {subsection}{\numberline {1.4}Procedure}{6}
 \contentsline {subsection}{\numberline {1.5}Observations}{6}
-\contentsline {subsection}{\numberline {1.6}Result}{6}
-\contentsline {subsection}{\numberline {1.7}Precautions}{6}
-\contentsline {chapter}{\numberline {3}Conclusion}{7}
-\contentsline {chapter}{\numberline {4}Acknowledgements}{8}
-\contentsline {chapter}{\numberline {5}Bibliography}{9}
+\contentsline {subsection}{\numberline {1.6}Calculations}{6}
+\contentsline {subsection}{\numberline {1.7}Result}{6}
+\contentsline {subsection}{\numberline {1.8}Precautions}{6}
+\contentsline {chapter}{\numberline {3}Conclusion}{8}
+\contentsline {chapter}{\numberline {4}Acknowledgements}{9}
+\contentsline {chapter}{\numberline {5}Bibliography}{10}

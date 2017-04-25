@@ -59,7 +59,7 @@ Integrating on both sides,
 \\ \\ \\
   Now, lets assume the string of the pendulum is cut. The velocity of the bob $v$ at the instant the string is cut is given by \emph{(1.2)} and \emph{(1.3)}. From \emph{fig.2} and projectile equations the time taken for the bob to reach max height is given by:
   \[t_1=\frac{v\sin\theta}{g}\]
-  At the time instant $t_1$, the bob is at the max height in its parabolic trajectory. Thus, its total height at this moment is given by:
+  At the time instant $t_1$, the bob is at the max height in its parabolic trajectory. Thus, its total height at this moment is given by (\emph{fig.2}):
   \[d=\frac{v^2\sin^2\theta}{2g}+l(1-\cos\theta)+h\]
 We know that an object at height $d$ will fall to the ground in time:
 \[t_2=\sqrt{\frac{2d}{g}}\]
@@ -68,25 +68,45 @@ Thus the total time taken for the bob to reach the ground after the string is cu
   t&=\text{(Time taken to reach max height) + (Time taken to fall to ground from max height)}\\
      &=t_1+t_2
 \end{align*}
-Thus the range $R$ of the projectile (bob) is given by:
+Thus the range $r$ of the projectile (bob) is given by:
+\[r=( v\cos\theta ) t\]
+But, this range $r$ is relative to the position the bob was cut in. This quantity cannot be measured easily in an experimental environment. Instead, we can find the range relative to the equillibrium position of the bob, by adding $l\sin\theta$ to the range:
 \begin{align*}
-  &R=( v\cos\theta ) t\\
-  \implies &\boxed{R=v\cos\theta\left(\frac{v\sin\theta}{g}+\sqrt{\frac{2(\frac{v^2\sin^2\theta}{2g}+l(1-\cos\theta)+h)}{g}}\:\right)} \numberthis \label{eqn}
+  R&=l\sin\theta + r \\
+  &=l\sin\theta + (v\cos\theta)t \\
+  \implies \Aboxed{R&=l\sin\theta + v\cos\theta\left(\frac{v\sin\theta}{g}+\sqrt{\frac{2(\frac{v^2\sin^2\theta}{2g}+l(1-\cos\theta)+h)}{g}}\:\right)} \numberthis \label{eqn}
 \end{align*}
 \\ \\
 The first aim of this experiment is to observe readings of R, and predict the values of $\theta$ by looking at the graph of $R$ vs $\theta$ for measured values of $l$, $h$ and $\phi$. The second aim is to compare and analyse the graphs of $R$ vs $\theta$ for the two expressions for $v$ obtained above (1.2 and 1.3). 
 \subsection{Procedure}
 \begin{enumerate}
 \item Create a pendulum by tying a cork to one end of a string, and a bob to the other end, and then attaching the cork to an iron stand.
-\item Measure the \emph{length of the pendulum} (length from the point of suspension to the centre of the bob) and the length from the centre of the bob to the ground (when bob is at equllibrium), and note them down.
-  \item Put a metre scale on the ground, aligning its zero with the bob's equillibrium position when seen from above the bob. Ensure the metre scale is parallel to the pendulum motion of the bob.
+\item Put a metre scale on the ground, aligning its zero with the bob's equillibrium position when seen from above the bob. Ensure the metre scale is parallel to the pendulum motion of the bob.
+\item Ensure $l$ (length of string from the point of suspension to the centre of the bob) is 1$\mathrm{m}$.
+\item Measure $h$ and note it down (length from the centre of the bob to the ground, when bob is at equllibrium)
 \item Hold the bob away from its equillibrium position, and meausure the angle of release $\phi$ as shown in \emph{fig.3}.
 \item Release the bob and cut the string with a pair of scissors at any arbitrary time in the pendulum's motion.
 \item Note the range $R$ where the bob falls on the metre scale.
-\item Repeat steps 4-6 for 4 more different values of the initial angle $\phi$.
+\item Repeat steps 3-6 for 2 more different values of the initial angle, setting up the pendulum again each time.
 \end{enumerate}
 \subsection{Observations}
-[Table to be planned out]
+Length of pendulum $(l)=1 \mathrm{m}$
+\begin{table}[h!]
+  \centering
+  \begin{tabular}{|c|C{6cm}||C{4cm}|C{4cm}|@{}m{0pt}@{}}
+    \hline
+    \multicolumn{5}{|c|}{Observed range for different initial angles} \\
+    \hline
+    \textbf{No.}&\textbf{Initial Angle} $(\phi)$ (Degrees)&\textbf{Range} $(R)$ (cm)&\textbf{Height} $(h)$ (cm)&\\  [0.3cm]
+    \hline
+    1&$20\degree$&47&39&\\
+    2&$25\degree$&54&35.5&\\
+    3&$30\degree$&57&38&\\
+    \hline
+  \end{tabular}
+\end{table}
+\subsection{Calculations}
+
 \subsection{Result}
 [To be planned out]
 \subsection{Precautions}

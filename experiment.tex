@@ -10,6 +10,8 @@
 \usepackage{amssymb}
 \usepackage{mathtools}
 \usepackage{enumerate}
+\usepackage{gensymb}
+\usepackage{array}
 
 \renewcommand*\contentsname{Index}
 \renewcommand*\thesection{\arabic{section}}
@@ -18,6 +20,8 @@
 \newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
 
 \newcommand{\dd}[1]{\mathrm{d}#1}
+
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
 \titleformat{\chapter}[block]{\normalfont\bfseries\Large}{}{0pt}{
     \rule{\textwidth}{1pt}
