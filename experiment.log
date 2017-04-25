@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.13)  25 APR 2017 12:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.13)  25 APR 2017 13:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -473,7 +473,21 @@ Overfull \hbox (16.55002pt too wide) in paragraph at lines 96--107
  [][] 
  []
 
-)
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--116
+
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -481,6 +495,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [6]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 119.
+
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -505,10 +527,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5158 strings out of 494953
- 75616 string characters out of 6180977
+ 5175 strings out of 494953
+ 75908 string characters out of 6180977
  150675 words of memory out of 5000000
- 8334 multiletter control sequences out of 15000+600000
+ 8348 multiletter control sequences out of 15000+600000
  16330 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,14n,43p,848b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -524,7 +546,7 @@ msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msa
 m10.pfb>
-Output written on experiment.pdf (11 pages, 165709 bytes).
+Output written on experiment.pdf (11 pages, 167787 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  63 compressed objects within 1 object stream
