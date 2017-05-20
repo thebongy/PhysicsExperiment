@@ -135,7 +135,9 @@ Approximate corresponds to the graph when $v$ is taken as given by (1.2), and Re
       \item Error: $0.3094$
     \item Percentage Error: $5.384 \%$
       \end{itemize}
-  \end{enumerate}
+    \end{enumerate}
+    \\ \\
+    The above readings do indicate an  approximate rise in the \emph{Percentage Error}, and furthermore on observing the graph for higer angles of inital release, more variations in the approximate and real graphs are seen.
 \subsection{Result}
 [To be planned out]
 \subsection{Precautions}
