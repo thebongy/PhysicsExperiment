@@ -1,0 +1,25 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdftex 2017.4.13)  23 MAY 2017 18:24
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**\input Introduction.tex
+(./Introduction.tex
+Runaway argument?
+ \\ SHM describes the motion of a body to be sinusoidal in time, and \ETC.
+./Introduction.tex:3: Paragraph ended before \\ was complete.
+<to be read again> 
+                   \par 
+l.3 
+    
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+)
+! Emergency stop.
+<*> \input Introduction.tex
+                           
+*** (job aborted, no legal \end found)
+
+!  ==> Fatal error occurred, no output PDF file produced!

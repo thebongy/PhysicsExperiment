@@ -1,4 +1,4 @@
-\documentclass[12pt]{report}
+\documentclass[12pt, twoside]{report}
 \usepackage[a4paper,width=160mm,top=25mm,bottom=25mm]{geometry}
 \usepackage{graphicx}
 \usepackage{caption}
@@ -21,6 +21,11 @@
 
 \newcommand{\dd}[1]{\mathrm{d}#1}
 
+\newcommand*\cleartoleftpage{%
+  \clearpage
+  \ifodd\value{page}\hbox{}\newpage\fi
+}
+
 \newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
 
 \titleformat{\chapter}[block]{\normalfont\bfseries\Large}{}{0pt}{
@@ -34,15 +39,13 @@
 \rule{\textwidth}{0.3pt}
 ]
 
-\titleformat{\section}[display]
-{\large\bfseries}
-{\normalfont\normalsize{Exp. \thesection}}{0.5em}{}
+
 
 \graphicspath{ {images/} }
 \pagestyle{fancy}
 
 \fancyhead{}
-\fancyhead[LO,LE]{Exp.\rightmark}
+\fancyhead[LO]{\rightmark}
 
 \begin{document}
 
@@ -71,19 +74,31 @@
 \vfill
 
 \end{titlepage}
-
+\cleardoublepage
 \chapter{Acknowledgements}
-\input{chapters/Introduction}
+\input{chapters/Acknowledgements}
+\cleardoublepage
 \tableofcontents
+\cleardoublepage
 \chapter{Introduction}
 \input{chapters/Introduction}
+\cleartoleftpage
+\vspace*{6cm}
+\begin{figure}[h]
+  \begin{center}
+    \includegraphics[width=10cm]{fig-1}
+    \end{center}
+  \caption*{Fig.1 Forces in a pendulum system}
+ \end{figure}
+\cleardoublepage
 \chapter{Experimental details}
 \section{Error in Small Angle Approximation of a Pendulum}
 \input{chapters/Experiment1}
+\cleardoublepage
 \chapter{Conclusion}
-\input{chapters/Introduction}
-\chapter{Scope for further study}
-\input{chapters/Introduction}
-\chapter{Bibliography}
-\input{chapters/Introduction}
+\input{chapters/Conclusion}
+\section{Scope for Further Study}
+\input{chapters/Scope}
+\section{Bibliography}
+\input{chapters/Bibliography}
 \end{document}

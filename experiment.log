@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.13)  20 MAY 2017 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.4.13)  23 MAY 2017 20:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -253,12 +253,7 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/block.tss
 File: block.tss 2016/03/15
-)
-
-Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less on input line 45.
-
-(./experiment.aux
+) (./experiment.aux
 
 LaTeX Warning: Label `eqn' multiply defined.
 
@@ -271,18 +266,18 @@ LaTeX Warning: Label `eqn' multiply defined.
 )
 \openout1 = `experiment.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -291,21 +286,21 @@ LaTeX Font Info:    ... okay on input line 47.
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(71.1319pt, 455.24408pt, 71.1319pt)
+* modes: twoside 
+* h-part:(L,W,R)=(56.90552pt, 455.24408pt, 85.35828pt)
 * v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=455.24408pt
 * \textheight=702.78308pt
-* \oddsidemargin=-1.13809pt
-* \evensidemargin=-1.13809pt
+* \oddsidemargin=-15.36447pt
+* \evensidemargin=13.08829pt
 * \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=44.0pt
+* \marginparwidth=95.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.8pt plus 4.0pt minus 2.0pt
@@ -313,8 +308,8 @@ LaTeX Font Info:    ... okay on input line 47.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -377,37 +372,42 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \celsius on input line 47.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 47.
+LaTeX Info: Redefining \celsius on input line 50.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 50.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 47.
-Package gensymb Info: Using \Omega for \ohm on input line 47.
+LaTeX Info: Redefining \ohm on input line 50.
+Package gensymb Info: Using \Omega for \ohm on input line 50.
 
 Package gensymb Warning: Not defining \micro.
 
 <images/title2.png, id=1, 511.9125pt x 481.8pt>
 File: images/title2.png Graphic file (type png)
  <use images/title2.png>
-Package pdftex.def Info: images/title2.png used on input line 70.
+Package pdftex.def Info: images/title2.png used on input line 73.
 (pdftex.def)             Requested size: 256.0748pt x 241.00967pt.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/title2.png>]
+[2
+
+]
 Chapter 1.
-(./chapters/Introduction.tex) [1
+(./chapters/Acknowledgements.tex) [3
+
+] [4
 
 ] (./experiment.toc
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -415,38 +415,46 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write3
 \openout3 = `experiment.toc'.
 
- [2
+ [5
+
+] [6
 
 ]
 Chapter 2.
-(./chapters/Introduction.tex) [3
+(./chapters/Introduction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
 
-]
+ []
+
+) [7
+
+] <images/fig-1.jpeg, id=32, 361.35pt x 292.4526pt>
+File: images/fig-1.jpeg Graphic file (type jpg)
+
+<use images/fig-1.jpeg>
+Package pdftex.def Info: images/fig-1.jpeg used on input line 89.
+(pdftex.def)             Requested size: 284.52756pt x 230.28087pt.
+ [8
+
+ <./images/fig-1.jpeg>]
 Chapter 3.
-(./chapters/Experiment1.tex
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
+(./chapters/Experiment1.tex [9
 
- []
 
-[4
+] [10
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 44--47
+Underfull \hbox (badness 10000) in paragraph at lines 24--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--47
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--61
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--61
+Underfull \hbox (badness 10000) in paragraph at lines 45--48
 
  []
 
@@ -456,13 +464,25 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5]
-Overfull \hbox (1.83447pt too wide) in paragraph at lines 70--70
+[11] <images/fig2.png, id=51, 775.89874pt x 422.57875pt>
+File: images/fig2.png Graphic file (type png)
+ <use images/fig2.png>
+Package pdftex.def Info: images/fig2.png used on input line 64.
+(pdftex.def)             Requested size: 483.69684pt x 263.44048pt.
+
+Overfull \hbox (28.45276pt too wide) in paragraph at lines 64--65
+ [] 
+ []
+
+[12
+
+ <./images/fig2.png>]
+Overfull \hbox (1.83447pt too wide) in paragraph at lines 79--79
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--81
+Underfull \hbox (badness 10000) in paragraph at lines 87--90
 
  []
 
@@ -472,58 +492,112 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6]
-Overfull \hbox (16.55002pt too wide) in paragraph at lines 96--107
+[13
+
+] <images/20deg-a.png, id=61, 803.0pt x 803.0pt>
+File: images/20deg-a.png Graphic file (type png)
+ <use images/20deg-a.png>
+Package pdftex.def Info: images/20deg-a.png used on input line 98.
+(pdftex.def)             Requested size: 227.62204pt x 227.61984pt.
+
+<images/20deg-e.png, id=62, 803.0pt x 803.0pt>
+File: images/20deg-e.png Graphic file (type png)
+ <use images/20deg-e.png>
+Package pdftex.def Info: images/20deg-e.png used on input line 102.
+(pdftex.def)             Requested size: 227.62204pt x 227.61984pt.
+
+Overfull \hbox (59.5166pt too wide) in paragraph at lines 97--105
+[]$[]$ $[]$ 
+ []
+
+[14
+
+ <./images/20deg-a.png> <./images/20deg-e.png>]
+Overfull \hbox (16.55002pt too wide) in paragraph at lines 119--130
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--116
+Underfull \hbox (badness 10000) in paragraph at lines 132--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--116
+Underfull \hbox (badness 10000) in paragraph at lines 132--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--116
+Underfull \hbox (badness 10000) in paragraph at lines 132--139
 
  []
 
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 142.
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[7]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 119.
-
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 119.
-)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 142.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8]
+[15
+
+] <images/25deg-a.png, id=73, 803.0pt x 803.0pt>
+File: images/25deg-a.png Graphic file (type png)
+ <use images/25deg-a.png>
+Package pdftex.def Info: images/25deg-a.png used on input line 148.
+(pdftex.def)             Requested size: 227.62204pt x 227.61984pt.
+
+<images/25deg-e.png, id=74, 803.0pt x 803.0pt>
+File: images/25deg-e.png Graphic file (type png)
+ <use images/25deg-e.png>
+Package pdftex.def Info: images/25deg-e.png used on input line 152.
+(pdftex.def)             Requested size: 227.62204pt x 227.61984pt.
+
+Overfull \hbox (59.5166pt too wide) in paragraph at lines 147--155
+[]$[]$ $[]$ 
+ []
+
+<images/30deg-a.png, id=75, 803.0pt x 803.0pt>
+File: images/30deg-a.png Graphic file (type png)
+ <use images/30deg-a.png>
+Package pdftex.def Info: images/30deg-a.png used on input line 160.
+(pdftex.def)             Requested size: 227.62204pt x 227.61984pt.
+
+<images/30deg-e.png, id=76, 803.0pt x 803.0pt>
+File: images/30deg-e.png Graphic file (type png)
+ <use images/30deg-e.png>
+Package pdftex.def Info: images/30deg-e.png used on input line 164.
+(pdftex.def)             Requested size: 227.62204pt x 227.61984pt.
+
+Overfull \hbox (59.5166pt too wide) in paragraph at lines 159--167
+[]$[]$ $[]$ 
+ []
+
+[16
+
+ <./images/25deg-a.png> <./images/25deg-e.png> <./images/30deg-a.png> <./images
+/30deg-e.png>])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[17
+
+] [18
+
+]
 Chapter 4.
-(./chapters/Introduction.tex) [9
-
-]
-Chapter 5.
-(./chapters/Introduction.tex) [10
-
-]
-Chapter 6.
-(./chapters/Introduction.tex) [11
+(./chapters/Conclusion.tex) (./chapters/Scope.tex) (./chapters/Bibliography.tex
+) [19
 
 ] (./experiment.aux)
 
@@ -531,29 +605,30 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5177 strings out of 494953
- 75960 string characters out of 6180977
- 150675 words of memory out of 5000000
- 8348 multiletter control sequences out of 15000+600000
- 16330 words of font info for 59 fonts, out of 8000000 for 9000
+ 5235 strings out of 494953
+ 77002 string characters out of 6180977
+ 149822 words of memory out of 5000000
+ 8391 multiletter control sequences out of 15000+600000
+ 16630 words of font info for 60 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,14n,43p,848b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,14n,43p,716b,577s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-ti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msa
-m10.pfb>
-Output written on experiment.pdf (12 pages, 169372 bytes).
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
+>
+Output written on experiment.pdf (19 pages, 551187 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 136 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
