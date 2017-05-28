@@ -1,15 +1,15 @@
 \contentsline {chapter}{\numberline {1}Acknowledgements}{3}
 \contentsline {chapter}{\numberline {2}Introduction}{7}
 \contentsline {chapter}{\numberline {3}Experimental details}{9}
-\contentsline {section}{\numberline {1}Error in Small Angle Approximation of a Pendulum}{9}
+\contentsline {section}{\numberline {1}Enthalpy of formation of Magnesium Oxide}{9}
 \contentsline {subsection}{\numberline {1.1}Aim}{9}
 \contentsline {subsection}{\numberline {1.2}Materials Required}{9}
-\contentsline {subsection}{\numberline {1.3}Theory}{9}
-\contentsline {subsection}{\numberline {1.4}Procedure}{13}
-\contentsline {subsection}{\numberline {1.5}Observations}{15}
-\contentsline {subsection}{\numberline {1.6}Graphs}{15}
-\contentsline {subsection}{\numberline {1.7}Result}{17}
-\contentsline {subsection}{\numberline {1.8}Precautions}{17}
+\contentsline {subsection}{\numberline {1.3}Chemicals Required}{9}
+\contentsline {subsection}{\numberline {1.4}Theory}{9}
+\contentsline {subsection}{\numberline {1.5}Procedure}{13}
+\contentsline {subsection}{\numberline {1.6}Observations}{15}
+\contentsline {subsection}{\numberline {1.7}Calculations}{15}
+\contentsline {subsection}{\numberline {1.8}Result}{15}
+\contentsline {subsection}{\numberline {1.9}Prectautions}{15}
 \contentsline {chapter}{\numberline {4}Conclusion}{19}
-\contentsline {section}{\numberline {1}Scope for Further Study}{19}
-\contentsline {section}{\numberline {2}Bibliography}{19}
+\contentsline {section}{\numberline {1}Bibliography}{19}

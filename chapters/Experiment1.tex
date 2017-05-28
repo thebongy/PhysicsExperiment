@@ -1,203 +1,141 @@
 \subsection{Aim}
-\begin{enumerate}[(a)]
-\item To predict the angle of release of pendulum projectile by measuring range of the projectile.
-\item To use the results of (a) to compare the predictions of SAA with a more accurate analysis considering the exact forces of the system. 
-\end{enumerate}
+To determine the standard molar enthalpy of formation of Magnesium Oxide (MgO).
 \subsection{Materials Required}
-Metallic bob, Thread, Iron Stand, Protractor, Metre Scale, Scissors
-\subsection{Theory}
-\emph{Simple harmonic motion} is a type of periodic motion where the restoring force is directly proportional to the displacement and acts in the direction opposite to that of displacement. The restoring force is given by:
-\[
-  \mathbf{F}=-kx
-\]
-where $\mathbf{F}$ is the restoring force, $k$ is a constant, and $x$ is the displacement from the equillibrium position.
+Calorimeter, thermometer, Bunsen Burner, Beaker, Tongs, Electric Balance.
+\subsection{Chemicals Required}
+Magnesium Ribbon, HCl (1.0 M), NaOH (1.0M)
 
-A pendulum is a weight suspended from a frictionless pivot so that it can swing freely. For a pendulum to act as an SHM oscillator, the force on the weight must be proportional to the displacement of the weight from the equillibrium position. But from \textit{fig.1} it can be clearly seen that the magnitude of the restoring torque of $mg$ is given by:
-\[
-  |\bm{\Gamma}|=-mgl\sin\theta
-\]
-It is clearly seen that the restoring torque is not directly proportional to the angular displacement, which means that the pendulum is not an SHM oscillator. But for small values of $\theta$, $\sin\theta$ is approximately equal to $\theta$, and thus for this case alone does the pendulum act as an SHM. The displacement of the weight for small angles can thus be given by:
-\[
-  \theta=\phi\sin\omega t \numberthis \label{eqn}
-\]
-\cleardoublepage
-where $\phi$ is the amplitude (in this case, the initial \emph{angle of release} of the pendulum), $\omega$ is the angular frequency, and $t$ is a time instant.
+\subsection{Theory}
+The \emph{standard enthalpy of formation} of a compound is the change of enthalpy during the formation of 1 mole of the substance from its constituent elements, with all substances in their standard states, and at a pressure of 1 bar.
 \\ \\
-Differentiating with respect to time, we obtain:
-\[
-  \frac{\dd{\theta}}{\dd{t}}=\vec{\omega}=\phi\omega\cos\omega t
-\]
-and since the tangential velocity $v=r\omega$, in this case,
-\[
-  v=l\phi\omega\cos\omega t
-\]
-where $l$ is the length of the pendulum.
-\\
-Further,
+The standard enthalpy of formation of Magnesium Oxide, would be the enthalpy of the reaction below:
+\[ 
+  \ce{Mg + 1/2O2 -> MgO} \tag{1}\label{1}
+ \]
+ \\
+Reaction (1) releases a lot of heat and light energy, and a direct method for measuring this energy would be extremely difficult in an experimental environment. Thus, we utilize Hess’ Law to indirectly measure the enthalpy of this reaction.
+ \\ \\
+\emph{Hess' law} states that the total enthalpy change during the complete course of a chemical reaction is the same whether the reaction is made in one step or in several steps.
+ \\ \\
+Since it is easier and more accurate to measure the temperature change of a solution, we conduct the following reactions and measure the $\Delta T$ for each.
+\cleardoublepage
+
 \begin{align*}
-  v&=l\phi\omega\sqrt{1 - \sin^2\omega t}\\
-   &=l\omega\sqrt{\phi^2(1 - \sin^2\omega t)}\\
-   &=l\omega\sqrt{\phi^2 - \phi^2\sin^2\omega t}\\
-   &=l.\sqrt{\frac{g}{l}}\left(\sqrt{\phi^2 - \theta^2}\right) &&\text{($\because \omega=\sqrt{\frac{g}{l}}$ and 1.1)} \\
- \implies \Aboxed{v&=\sqrt{ g(\phi^2 - \theta^2) }} \numberthis \label{eqn} 
+\ce{& Mg(s) + 2H+(aq) -> Mg2+(aq) + H2(g)} \tag{2}\label{2} \\ \\
+\ce{& MgO(s)  + 2H+(aq) ->  Mg2+(aq) + H2O(l)} \tag{3}\label{3} \\ \\
+\ce{& 1/2O2(g) + H2(g) -> H2O(l)} \tag{4}\label{4} \\ \\
+\end{align*}
+We can clearly see that (2) - (3) + (4) = (1), thus the reactions can be used to determine the $\Delta H$ of formation of MgO. Note that reaction (4) is a standard reaction whose $\Delta H$ is known to be approximately 285.8 kJ/mol.
+ \\ \\
+To measure $\Delta T$ for each reaction accurately, we conduct each reaction in a calorimeter, to prevent any loss of heat to the surroundings and thus minimize error. As reactions are carried out in a constant pressure environment, the heat released is equal to the enthalpy change in the reaction
+\\ \\
+In a solution of n moles, for a change in temp of $\Delta T$, the heat released $Q$ is given by:
+\[
+  Q = nC\Delta T \tag{5}\label{5}
+\]
+Where C is the molar heat capacity of the medium/body where change of temperature occurs.
+\\ \\
+In this experiment,we need to first determine the $C$ of the calorimeter, as this value is unknown to us. For this, we conduct the following reaction separately in the calorimeter and measure the change in temperature $\Delta T_1$:
+\begin{align*}
+\ce{nNaOH(1M) + nHCL(1M) -> nNaCl + nH2O} \tag{6}\label{6}
 \end{align*}
 
-We can avoid the above approximations, by considering the $\sin\theta$ term and adopting another approach through calculus to find $v$.
-\\ \\ \\
-From \emph{fig.1}, the tangential acceleration of the weight is given by:
-  \[a_t=-g\sin\theta\]
-We know that $a_t=\frac{\dd{v}}{\dd{t}}$, thus,
-  \[\frac{\dd{v}}{\dd{s}}\frac{\dd{s}}{\dd{t}}=-g\sin\theta\]
-Furthermore, $\frac{\dd{s}}{\dd{t}}=v$,from which we obtain
-  \[v\dd{v}=-g\sin\theta\dd{s}\]
-Integrating on both sides,
-  \begin{align*}
-    &\int_0^v v\dd{v} = -\int_\phi^\theta gl\sin\theta\dd{\theta} &&\text{($\because\dd{s}=l\dd{\theta}$)}\\
-   \implies &\frac{v^2}{2} = gl[ \cos\theta ]^\theta_\phi = gl(\cos\theta - \cos\phi)\\
-   \implies &\boxed{v=\sqrt{2gl( \cos\theta - \cos\phi )}} \numberthis \label{eqn} 
-  \end{align*}
-  (1.3) is the general expression for the velocity of the weight in a pendulum as a function of $\theta$ without any \emph{small angle approximations}.
-  \cleartoleftpage
-  \vspace*{6cm}
+The $\Delta H$ for this reaction is known to be -55.8 kJ/mol.
+\\
+Also,
+\[
+  \text{Moles of water in the solution}(n^\prime)  = \frac{2n}{18}
+\]
+\\
+We also know that,
+\begin{align*}
+&\text{Heat absorbed by calorimeter}(Q_{cal}) = \text{Heat released by reaction} - \text{Heat absorbed by Water} \\ \\
+\implies & Q_{cal} = (-55800J \times n) - (\text{Moles of water in solution} \times 75.348 J/mol K \times \Delta T_1)
+\end{align*}
+Thus, the heat capacity of the calorimeter is,
+\[
+  C_{cal}=\frac{Q_{cal}}{\Delta T_1} \tag{7}\label{7}
+\]
+\\
+After this value is known to use, we can use (5) to calculate the $\Delta H$ for reactions (1) to (4), and thus compute the enthalpy of formation of MgO.
+\cleartoleftpage
+\vspace*{6cm}
 \begin{figure}[h]
   \begin{center}
-    \includegraphics[width=17cm]{fig2}
+    \includegraphics[width=10cm]{fig2}
     \end{center}
-  \caption*{Fig.2 Experiment Diagram}
+  \caption*{Fig.2 Experimental Setup for measuring temperature changes in reactions}
  \end{figure}
-  \cleardoublepage
-  Now, lets assume the string of the pendulum is cut. The velocity of the bob $v$ at the instant the string is cut is given by \emph{(1.2)} and \emph{(1.3)}. From \emph{fig.2} and projectile equations the time taken for the bob to reach max height is given by:
-  \[t_1=\frac{v\sin\theta}{g}\]
-  At the time instant $t_1$, the bob is at the max height in its parabolic trajectory. Thus, its total height at this moment is given by (\emph{fig.2}):
-  \[d=\frac{v^2\sin^2\theta}{2g}+l(1-\cos\theta)+h\]
-We know that an object at height $d$ will fall to the ground in time:
-\[t_2=\sqrt{\frac{2d}{g}}\]
-Thus the total time taken for the bob to reach the ground after the string is cut is:
-\begin{align*}
-  t&=\text{(Time taken to reach max height) + (Time taken to fall to ground from max height)}\\
-     &=t_1+t_2
-\end{align*}
-Thus the range $r$ of the projectile (bob) is given by:
-\[r=( v\cos\theta ) t\]
-But, this range $r$ is relative to the position the bob was cut in. This quantity cannot be measured easily in an experimental environment. Instead, we can find the range relative to the equillibrium position of the bob, by adding $l\sin\theta$ to the range:
-\begin{align*}
-  R&=l\sin\theta + r \\
-  &=l\sin\theta + (v\cos\theta)t \\
-  \implies \Aboxed{R&=l\sin\theta + v\cos\theta\left(\frac{v\sin\theta}{g}+\sqrt{\frac{2(\frac{v^2\sin^2\theta}{2g}+l(1-\cos\theta)+h)}{g}}\:\right)} \numberthis \label{eqn}
-\end{align*}
-\\ \\
-The first aim of this experiment is to observe readings of R, and predict the values of $\theta$ by looking at the graph of $R$ vs $\theta$ for measured values of $l$, $h$ and $\phi$. The second aim is to compare and analyse the graphs of $R$ vs $\theta$ for the two expressions for $v$ obtained above (1.2 and 1.3). 
+\cleardoublepage
 \subsection{Procedure}
+Determining Heat capacity of Calorimeter:
 \begin{enumerate}
-\item Create a pendulum by tying a cork to one end of a string, and a bob to the other end, and then attaching the cork to an iron stand.
-\item Put a metre scale on the ground, aligning its zero with the bob's equillibrium position when seen from above the bob. Ensure the metre scale is parallel to the pendulum motion of the bob.
-  \cleartoleftpage
-  \vspace*{10cm}
-  \begin{figure}[h]
-    \begin{subfigure}{9cm}
-      \includegraphics[width=8cm]{20deg-a}
-      \caption*{(a) Approximate}
-    \end{subfigure}
-    \begin{subfigure}{9cm}
-      \includegraphics[width=8cm]{20deg-e}
-      \caption*{(b) Real}
-    \end{subfigure}
-    \caption*{Graph 1: Graphs for $\phi = 20\degree$}
-    \end{figure}
-  \cleardoublepage
-\item Ensure $l$ (length of string from the point of suspension to the centre of the bob) is 1$\mathrm{m}$.
-\item Measure $h$ and note it down (length from the centre of the bob to the ground, when bob is at equllibrium)
-\item Hold the bob away from its equillibrium position, and meausure the angle of release $\phi$.
-\item Release the bob and cut the string with a pair of scissors at any arbitrary time in the pendulum's motion.
-\item Note the range $R$ where the bob falls on the metre scale.
-\item Repeat steps 3-6 for 2 more different values of the initial angle, setting up the pendulum again each time.
+\item To determine heat capacity of calorimeter, the reaction between HCL and NaOH is carried out in aqueous solution in calorimeter.
+\item Prepare standard solutions of 1M HCl by diluting 12M HCl and 1M NaOH by dissolving 40g NaOH pellets in 100 ml of  water in standard flasks.
+\item Take a calorimeter and place a thermometer in it. Note the initial reading of thermometer.
+\item Add 15ml each of standard HCl and NaOH in the calorimeter.
+\item Keep observing the thermometer until its temperature reaches a maximum value. Note the reading.
+\item Calculate the value of heat capacity of the calorimeter.
 \end{enumerate}
+\vspace{5mm}
+Measuring enthalpy of formation of MgO:
+\begin{enumerate}
+\item Weigh 0.3g(0.025 mol) of Mg on an electronic balance.
+\item Take the same calorimeter whose heat capacity was determined and add the 0.3g of Mg to it.
+\item Take a thermometer and place it in the calorimeter. Note the initial reading of thermometer.
+\item Add 25ml of standard HCl solution(1M) to the calorimeter. Note the maximum temperature of the thermometer.
+\item Burn some Mg ribbons and take 0.5g(0.025 mol) of the MgO formed.
+\item Wash the calorimeter and add the MgO to it. 
+\item Take a thermometer and place it in the calorimeter. Note the initial reading of thermometer.
+\item Add 25ml of standard HCl solution(1M) to the calorimeter. Note the maximum temperature of the thermometer.
+\item Use the obtained readings to calculate enthalpies of the above reactions per mole of HCl and hence determine the enthalpy of formation of MgO.
+\end{enumerate}
+
+\cleardoublepage
 \subsection{Observations}
-Length of pendulum $(l)=1 \mathrm{m}$
-\begin{table}[h!]
-  \centering
-  \begin{tabular}{|c|C{6cm}||C{4cm}|C{4cm}|@{}m{0pt}@{}}
-    \hline
-    \multicolumn{5}{|c|}{Observed range for different initial angles} \\
-    \hline
-    \textbf{No.}&\textbf{Initial Angle} $(\phi)$ (Degrees)&\textbf{Range} $(R)$ (cm)&\textbf{Height} $(h)$ (cm)&\\  [0.3cm]
-    \hline
-    1&$20\degree$&47&39&\\
-    2&$25\degree$&54&35.5&\\
-    3&$30\degree$&57&38&\\
-    \hline
-  \end{tabular}
-\end{table}
-\subsection{Graphs}
-The Graphs 1, 2 and 3 correspond to the 3 observations above, each graphing the range $R$ on the x-axis, and angle of cutting $\theta$ on the y-axis.
-\\ \\
-Since in our proof in the theory section, we had assumed that after cutting the thread, the bob reaches maximum height first, and then falls down to the ground, we had limited our domain of observation to positive values of $\theta$, and accordingly, the given graphs should be interpreted only in the first quadrant, as the other quadrants might not relay any useful information with regard to the experiment.
-\\ \\
-The vertical blue line in each graph corresponds to the range found during the experiment. This line is seen to intersect for two values of $\theta$. Note that for uniformity in readings, we have arbitrarily considered the lower intersection in each case.
-\\ \\
-Approximate corresponds to the graph when $v$ is taken as given by (1.2), and Real corresponds to the graph when $v$ is taken as given by (1.3).
-  \begin{enumerate}[\text{Graph} 1:]
-  \item For $\phi=20\degree, R=0.47 \mathrm{m}$, the following values of $\theta$ are obtained:
-    \begin{itemize}
-    \item Approximate: $0.2028^c = 11.6196\degree$
-    \item Real: $0.2087^c = 11.9575\degree$
-      \cleartoleftpage
-       \vspace*{1cm}
-  \begin{figure}[!htb]
-    \begin{subfigure}{9cm}
-      \includegraphics[width=8cm]{25deg-a}
-      \caption*{(a) Approximate}
-    \end{subfigure}
-    \begin{subfigure}{9cm}
-      \includegraphics[width=8cm]{25deg-e}
-      \caption*{(b) Real}
-    \end{subfigure}
-    \caption*{Graph 1: Graphs for $\phi = 25\degree$}
-  \end{figure}
-\vspace*{2cm}
-  \begin{figure}[!htb]
-    \begin{subfigure}{9cm}
-      \includegraphics[width=8cm]{30deg-a}
-      \caption*{(a) Approximate}
-    \end{subfigure}
-    \begin{subfigure}{9cm}
-      \includegraphics[width=8cm]{30deg-e}
-      \caption*{(b) Real}
-    \end{subfigure}
-    \caption*{Graph 1: Graphs for $\phi = 30\degree$}
-    \end{figure}
-      \cleardoublepage
-    \item Error: $0.3379$
-    \item Percentage Error: $2.826 \%$ 
-    \end{itemize}
-  \item For $\phi=25\degree, R=0.54 \mathrm{m}$, the following values of $\theta$ are obtained:
-    \begin{itemize}
-    \item Approximate: $0.1763^c = 10.1011\degree$
-    \item Real: $0.1814^c = 10.3934\degree$
-      \item Error: $0.2923$
-      \item Percentage Error: $2.812 \%$
-    \end{itemize}
-  \item For $\phi=30\degree, R=0.57 \mathrm{m}$, the following values of $\theta$ are obtained:
-    \begin{itemize}
-    \item Approximate: $0.0949^c = 5.4374\degree$
-    \item Real: $0.1003^c = 5.7468\degree$
-      \item Error: $0.3094$
-    \item Percentage Error: $5.384 \%$
-      \end{itemize}
-  \end{enumerate}
-  \subsection{Result}
-  It is clearly seen that there is a variation between the equation of a pendulum using SAA, and the more accurate equation. It is further also seen that the error seems to increase for larger amplitudes of the pendulum.
-\subsection{Precautions}
+Temperature change for HCl + NaOH reaction $(\Delta T_1) = 3.5\degree C$ \\
+Temperature change for Mg+HCl reaction $(\Delta T_2) = 29\degree C$ \\
+Temperature change for MgO+HCl reaction $(\Delta T_3) = 5\degree C$ \\
+
+\subsection{Calculations}
+Calculating Heat Capacity of Calorimeter:
+By Equation (7) in Theory,
+\begin{align*}
+  C_{cal}&=\frac{(55800J/molK * 0.015 mol) - (\frac{30}{18} mol * 75.348J/mol K * 3.5\degree C)}{3.5\degree C} \\
+  &= \frac{397.47}{3.5} \\
+    \implies C_{cal}&=113.56 J/K
+\end{align*}
+\\
+Since in the reactions of Mg with HCl and MgO with HCl, the solution had the same quantity of water (25 ml), thus we can include the heat absorbed by this water in our calorimeter's heat capacity, thus obtaining its \emph{Effective Heat Capacity} ($C_{eff}$). Note that this is done purely for ease of calculation in subsequent steps.
+\begin{align*}
+  C_{eff} &= (\frac{25}{18} \times 75.348) + 113.56 \\
+  &=218.21 J/K \\
+\end{align*}
+
+Thus, enthalpy change for Mg + HCl reaction $(H_1)$ and for MgO + HCl $(H_2)$ is given by:
+\begin{align*}
+  \Delta H_1 &= \frac{29*218.21}{0.025} = 253.123 KJ/mol \\ \\
+  \Delta H_2 &= \frac{5*218.21}{0.025} = 43.642 KJ/mol
+\end{align*}
+
+Thus the enthalpy of formation of MgO within experimental errors is:
+\begin{align*}
+  \Delta H_f &= 285.8 + 253.123 - 43.642 \\
+&= 495.281 kJ/mol
+\end{align*}
+
+\subsection{Result}
+The Standard Enthalpy of Formation of MgO is \textbf{495.281 kJ/mol}
+
+\subsection{Prectautions}
 \begin{enumerate}
-\item Ensure that the string has no knots, and its weight is negligible.
-\item Do not cut the pendulum too late, as the amplitude might get damped, due to energy loss from friction in the air.
-\item Ensure that string is cut carefully, without disturbing the oscillations in the cutting process.
-\item Avoid any parallax while measuring angles/lengths.
+\item Burn the magnesium ribbon carefully, holding the reactant with tongs away from face.
+  \cleardoublepage
+\item Handle Bunsen burner Carefully
+\item Ensure to Cover Calorimeter to prevent heat loss
+\item Avoid any parallax while taking temperature readings from the thermometer.
 \end{enumerate}
 
-
-
-  
 
                                                                            
 %%% Local Variables:
