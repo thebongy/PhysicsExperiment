@@ -10,6 +10,6 @@
 \contentsline {subsection}{\numberline {1.6}Observations}{15}
 \contentsline {subsection}{\numberline {1.7}Calculations}{15}
 \contentsline {subsection}{\numberline {1.8}Result}{15}
-\contentsline {subsection}{\numberline {1.9}Prectautions}{15}
+\contentsline {subsection}{\numberline {1.9}Precautions}{15}
 \contentsline {chapter}{\numberline {4}Conclusion}{19}
 \contentsline {section}{\numberline {1}Bibliography}{19}
