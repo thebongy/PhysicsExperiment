@@ -2,7 +2,6 @@
 \usepackage[a4paper,width=160mm,top=25mm,bottom=25mm]{geometry}
 \usepackage{graphicx}
 \usepackage{caption}
-
 \usepackage{subcaption}
 \usepackage{titlesec}
 \usepackage{bm}
@@ -12,13 +11,14 @@
 \usepackage{enumerate}
 \usepackage{gensymb}
 \usepackage{array}
-
+\usepackage[normalem]{ulem}
+\useunder{\uline}{\ul}{}
 \renewcommand*\contentsname{Index}
 \renewcommand*\thesection{\arabic{section}}
-
+\usepackage[T1]{fontenc}
 \numberwithin{equation}{section}
 \newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
-
+\expandafter\show\the\font
 \newcommand{\dd}[1]{\mathrm{d}#1}
 
 \newcommand*\cleartoleftpage{%
@@ -78,8 +78,34 @@
 \chapter{Acknowledgements}
 \input{chapters/Acknowledgements}
 \cleardoublepage
-\tableofcontents
+\setcounter{chapter}{-42}
+\chapter{Index}
+\begin{table}[h]
+  \centering
+  \label{my-label}
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{|r|l|c|}
+  \hline
+  \multicolumn{1}{|c|}{\textbf{Sl. No}} & \multicolumn{1}{c|}{\textbf{Topic}}               & \textbf{Page No.} \\ \hline
+  \multicolumn{1}{|c|}{1}               & \textbf{Acknowledgements}                         & 3                 \\ \hline
+  \multicolumn{1}{|c|}{2}               & \textbf{Introduction}                             & 7                 \\ \hline
+  \multicolumn{1}{|c|}{3}               & \textbf{Experimental Details}                     & 9                 \\ \hline
+  1                                     & Errors in Small Angle Approximation of a Pendulum & 9                 \\ \hline
+  1.1                                   & Aim                                               & 9                 \\ \hline
+  1.2                                   & Materials Required                                & 9                 \\ \hline
+  1.3                                   & Theory                                            & 9                 \\ \hline
+  1.4                                   & Procedure                                         & 13                \\ \hline
+  1.5                                   & Observations                                      & 15                \\ \hline
+  1.6                                   & Graphs                                            & 15                \\ \hline
+  1.7                                   & Result                                            & 17                \\ \hline
+  1.8                                   & Precautions                                       & 17                \\ \hline
+  \multicolumn{1}{|c|}{4}               & \textbf{Conclusion}                               & 19                \\ \hline
+  1                                     & Scope for Further Study                           & 19                \\ \hline
+  \multicolumn{1}{|c|}{5}               & \textbf{Bibliography}                             & 21                \\ \hline
+  \end{tabular}}
+  \end{table}
 \cleardoublepage
+\setcounter{chapter}{1}
 \chapter{Introduction}
 \input{chapters/Introduction}
 \cleartoleftpage
@@ -99,6 +125,7 @@
 \input{chapters/Conclusion}
 \section{Scope for Further Study}
 \input{chapters/Scope}
-\section{Bibliography}
+\cleardoublepage
+\chapter{Bibliography}
 \input{chapters/Bibliography}
 \end{document}
