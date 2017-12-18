@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.30)  18 DEC 2017 11:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.30)  18 DEC 2017 18:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -678,7 +678,7 @@ fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/texmf-dist/fonts/type1/pub
 lic/cm-super/sfrm1200.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sf
 rm1440.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></us
 r/share/texmf-dist/fonts/type1/public/cm-super/sfti1728.pfb>
-Output written on experiment.pdf (21 pages, 660590 bytes).
+Output written on experiment.pdf (21 pages, 660568 bytes).
 PDF statistics:
  180 PDF objects out of 1000 (max. 8388607)
  116 compressed objects within 2 object streams
