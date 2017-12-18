@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1513575326 "/home/thebongy/Documents/PhysicsExperiment/experiment.tex" "experiment.pdf" "experiment" 1513575334
+["pdflatex"] 1513575795 "/home/thebongy/Documents/PhysicsExperiment/experiment.tex" "experiment.pdf" "experiment" 1513575804
   "/home/thebongy/Documents/PhysicsExperiment/experiment.tex" 1513575326 4486 54b8fd9c7b7e21de7c700d4ceefee850 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1510784331 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1510784337 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -129,10 +129,10 @@
   "chapters/Acknowledgements.tex" 1507745503 483 86872b54d516e3ddc78840e32ebe9cbc ""
   "chapters/Bibliography.tex" 1513567659 323 c7ffbb26e7e10a9a1dda189ba0ec6a2d ""
   "chapters/Conclusion.tex" 1507745503 532 dc3a82fb6ef88985af194599b21b0f93 ""
-  "chapters/Experiment1.tex" 1513567191 10717 365ba4dfbfb56b9a3069609bde380173 ""
+  "chapters/Experiment1.tex" 1513575795 10719 1c98b494ff30e3537525bfb8cfb28e37 ""
   "chapters/Introduction.tex" 1507745503 1271 e65ad00ef4a008c8ef5f6275bdc7b7a8 ""
   "chapters/Scope.tex" 1507745503 434 741d95a63dc93a168cfaa438a78b557c ""
-  "experiment.aux" 1513575328 1968 1dbeedac7fd5bfeb23a6be39292e44b1 ""
+  "experiment.aux" 1513575797 1968 1dbeedac7fd5bfeb23a6be39292e44b1 ""
   "experiment.tex" 1513575326 4486 54b8fd9c7b7e21de7c700d4ceefee850 ""
   "images/20deg-a.png" 1507745504 44259 d4be7361420b3e46c24105c57c3f89d4 ""
   "images/20deg-e.png" 1507745504 44011 cb0f44d15468eb10c64798a1fb643540 ""
@@ -145,6 +145,6 @@
   "images/title2.png" 1507745504 22522 9b953dec47b446e855ecaae628332205 ""
   (generated)
   "experiment.toc"
-  "experiment.aux"
   "experiment.pdf"
+  "experiment.aux"
   "experiment.log"
